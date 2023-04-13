@@ -1,0 +1,361 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\RedBusinessEssentialWeb\\RedBusinessEssentialWeb.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\DBConect\\DBConect.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\DBConect\\DBConect.csproj",
+        "projectName": "DBConect",
+        "projectPath": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\DBConect\\DBConect.csproj",
+        "packagesPath": "C:\\Users\\Projeto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\DBConect\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Projeto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Entidades\\Entidades.csproj"
+              },
+              "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Essencial\\Essencial.csproj": {
+                "projectPath": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Essencial\\Essencial.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Entidades\\Entidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Entidades\\Entidades.csproj",
+        "projectName": "Entidades",
+        "projectPath": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Entidades\\Entidades.csproj",
+        "packagesPath": "C:\\Users\\Projeto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Entidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Projeto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Essencial\\Essencial.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Essencial\\Essencial.csproj",
+        "projectName": "Essencial",
+        "projectPath": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Essencial\\Essencial.csproj",
+        "packagesPath": "C:\\Users\\Projeto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Essencial\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Projeto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Entidades\\Entidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Injection\\Injection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Injection\\Injection.csproj",
+        "projectName": "Injection",
+        "projectPath": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Injection\\Injection.csproj",
+        "packagesPath": "C:\\Users\\Projeto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Injection\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Projeto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\DBConect\\DBConect.csproj": {
+                "projectPath": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\DBConect\\DBConect.csproj"
+              },
+              "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Servico\\Servico.csproj": {
+                "projectPath": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Servico\\Servico.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\RedBusinessEssentialWeb\\RedBusinessEssentialWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\RedBusinessEssentialWeb\\RedBusinessEssentialWeb.csproj",
+        "projectName": "RedBusinessEssentialWeb",
+        "projectPath": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\RedBusinessEssentialWeb\\RedBusinessEssentialWeb.csproj",
+        "packagesPath": "C:\\Users\\Projeto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\RedBusinessEssentialWeb\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Projeto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Essencial\\Essencial.csproj": {
+                "projectPath": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Essencial\\Essencial.csproj"
+              },
+              "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Injection\\Injection.csproj": {
+                "projectPath": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Injection\\Injection.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Servico\\Servico.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Servico\\Servico.csproj",
+        "projectName": "Servico",
+        "projectPath": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Servico\\Servico.csproj",
+        "packagesPath": "C:\\Users\\Projeto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Servico\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Projeto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Essencial\\Essencial.csproj": {
+                "projectPath": "C:\\Users\\Projeto\\Documents\\Projeto\\Particular\\RedBusinessEssentialWeb\\Essencial\\Essencial.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+﻿@model X.PagedList.IPagedList<Entidades.Usuarios.Usuarios>
+@{
+	ViewData["Title"] = "Lista de Usuario";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Lista de Usuario</title>
+
+</head>
+<body>
+	<div class="row">
+		<div class="col-md-4">
+			<a asp-action="Create"><button class="btn btn-primary btn-lg" role="button" aria-pressed="true" asp-action="Create">Novo Usuario</button></a>
+		</div>
+		<div class="col-md-8" align="right">
+			<form asp-action="Index" align="right">
+				<div class="row">
+					<div class="col-md-2">
+						<select type="text" class="combo" id="campo" name="campo" selected="@ViewBag.Campo">
+							@if (ViewBag.Campo == "")
+							{
+								<option value="" selected>--</option>
+							}
+							else
+							{
+								<option value="">--</option>
+							}
+							@if (ViewBag.Campo == "Usuario")
+							{
+								<option value="Usuario" selected>Usuario</option>
+							}
+							else
+							{
+								<option value="Usuario">Usuario</option>
+							}
+							@if (ViewBag.Campo == "Nome")
+							{
+								<option value="Nome" selected>Nome</option>
+							}
+							else
+							{
+								<option value="Nome">Nome</option>
+							}
+						</select>
+					</div>
+					<div class="col-md-5">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Digite o filtro" id="searchString" name="searchString" value="@ViewBag.SearchString" />
+						</div>
+					</div>
+					<div class="col-md-2">
+						<button onclick="@Url.Action("Index", new { pagina = 1 , campo = ViewBag.Campo, searchString = ViewBag.SearchString})">Pesquisar</button>
+					</div>
+				</div>
+			</form>
+		</div>
+
+	</div>
+
+	<table class="table">
+		<thead>
+			<tr>
+				<th>
+					Usuario
+				</th>
+				<th>
+					Nome
+				</th>
+				<th>
+					Ativo
+				</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in Model)
+			{
+				<tr>
+					<td>
+						@Html.DisplayFor(modelItem => item.Usuario)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.Nome)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.Ativo)
+					</td>
+					<td>
+						<a class="btn btn-primary" role="button" aria-pressed="true" asp-action="Edit" asp-route-id="@item.id">Edit</a>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+	<div class="row">
+		@if (Model.PageCount > 1)
+		{
+			<div style="float: right">
+				Página @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) de @Model.PageCount
+			</div>
+			<div>
+				@Html.PagedListPager(Model,pagina => Url.Action("Index", new { pagina, campo = ViewBag.Campo, searchString = ViewBag.SearchString}),
+			new PagedListRenderOptions {
+			DisplayLinkToIndividualPages = true,
+			DisplayPageCountAndCurrentLocation = false,
+			MaximumPageNumbersToDisplay = 10,
+			LiElementClasses = new string[] { "page-item" },
+			PageClasses = new string[] { "page-link" },})
+			</div>
+		}
+
+	</div>
+</body>
+</html>
